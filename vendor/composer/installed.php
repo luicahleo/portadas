@@ -1,11 +1,11 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '35008a2345cbfaf4fce63bd7b22694b047170288',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -449,12 +449,12 @@
             'dev_requirement' => false,
         ),
         'laravel/laravel' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '35008a2345cbfaf4fce63bd7b22694b047170288',
             'dev_requirement' => false,
         ),
         'laravel/sail' => array(
@@ -582,6 +582,15 @@
             'replaced' => array(
                 0 => '1.10.2',
             ),
+        ),
+        'nascent-africa/jetstrap' => array(
+            'pretty_version' => 'v2.5.2',
+            'version' => '2.5.2.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../nascent-africa/jetstrap',
+            'aliases' => array(),
+            'reference' => 'c5b027c91ed60f6b3d957cb95614a217be4ae5e3',
+            'dev_requirement' => true,
         ),
         'nesbot/carbon' => array(
             'pretty_version' => '2.53.1',
